@@ -6,6 +6,10 @@ public class BatteryCollector : ModuleRules
 {
 	public BatteryCollector(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
-	}
+        //"UMG" Ãß°¡
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "UMG" });
+
+        //Ãß°¡µÊ
+        PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
+    }
 }
