@@ -30,20 +30,33 @@ public:
 	void Pitch(float amount);
 
 	float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser);
-	void Attack();
+	void CastSpell();
+	void CastSpell2();
 
+	UFUNCTION(BlueprintPure, Category = Properties)
+		int32 GetHP() const;
+protected:
 	FVector knockback;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
-		UClass* BPBullet;
+		UClass* BPSpell;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
-		float BulletLaunchImpulse;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
+		UClass* BPSpell2;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
-		float AttackTimeout;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Properties)
+		int32 HP;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = MonsterProperties)
-		float TimeSinceLastStrike;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
+		float SpellTimeout;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Properties)
+		float TimeSinceLastSpell;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
+		float SpellTimeout2;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Properties)
+		float TimeSinceLastSpell2;
 
 };

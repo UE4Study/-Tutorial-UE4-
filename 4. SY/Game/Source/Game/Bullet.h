@@ -21,13 +21,16 @@ public:
 	virtual void Tick( float DeltaSeconds ) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
-	float Demage;
+		float Demage;
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
-	class UStaticMeshComponent* Mesh;
+		class UStaticMeshComponent* Mesh;
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Collision)
-	class USphereComponent* ProxSphere;
+		class USphereComponent* ProxSphere;
+
+	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = Properties)
+		class UParticleSystemComponent* Particles;
 
 	UFUNCTION(BlueprintNativeEvent, Category = Collision)
 		void OnProxOverlapBegin(UPrimitiveComponent* OverlappedComponent,

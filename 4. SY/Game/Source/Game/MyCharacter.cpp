@@ -3,17 +3,18 @@
 #include "Game.h"
 #include "MyCharacter.h"
 #include "Bullet.h"
-
+#include "Spell.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	
-	BulletLaunchImpulse = 2000.0f;
-	AttackTimeout = 1.5f;
-	TimeSinceLastStrike = 0;
+	SpellTimeout = 3.5f;
+	SpellTimeout2 = 2.5f;
+	TimeSinceLastSpell = 3.5f;
+	TimeSinceLastSpell2 = 2.5f;
+	HP = 100;
 }
 
 // Called when the game starts or when spawned
@@ -31,12 +32,8 @@ void AMyCharacter::Tick( float DeltaTime )
 	AddMovementInput(knockback, 1.f);
 	knockback *= 0.5f;
 
-	//TimeSinceLastStrike += DeltaTime;
-
-	//if (TimeSinceLastStrike > AttackTimeout)
-	//{
-	//	TimeSinceLastStrike = 0;
-	//}
+	TimeSinceLastSpell += DeltaTime;
+	TimeSinceLastSpell2 += DeltaTime;
 
 }
 
@@ -49,15 +46,16 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("Yaw", this, &AMyCharacter::Yaw);
 	PlayerInputComponent->BindAxis("Pitch", this, &AMyCharacter::Pitch);
 	
-	PlayerInputComponent->BindAction("Shot", IE_Pressed, this, &AMyCharacter::Attack);
+	PlayerInputComponent->BindAction("Spell", IE_Pressed, this, &AMyCharacter::CastSpell);
+	PlayerInputComponent->BindAction("Spell2", IE_Pressed, this, &AMyCharacter::CastSpell2);
 }
 
 void AMyCharacter::MoveForward(float amount)
 {
 	if (Controller && amount)
 	{
-		FVector forward = GetActorForwardVector();
-		AddMovementInput(forward, amount);
+		FVector fwd = GetActorForwardVector();
+		AddMovementInput(fwd, amount);
 	}
 }
 
@@ -82,6 +80,7 @@ void AMyCharacter::Pitch(float amount)
 
 float AMyCharacter::TakeDamage(float Damage,FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
+	HP -= Damage;
 	knockback = GetActorLocation() - DamageCauser->GetActorLocation();
 	knockback.Normalize();
 	knockback *= Damage * 500;
@@ -89,26 +88,41 @@ float AMyCharacter::TakeDamage(float Damage,FDamageEvent const& DamageEvent, ACo
 	return Damage;
 }
 
-void AMyCharacter::Attack()
+void AMyCharacter::CastSpell()
 {
-	//if (TimeSinceLastStrike)
-	//	return;
-
-	if (BPBullet)
+	if (TimeSinceLastSpell < SpellTimeout)
+		return;
+		
+	TimeSinceLastSpell = 0;
+	ASpell* spell = GetWorld()->SpawnActor<ASpell>(BPSpell, FVector(0), FRotator(0));
+	if (spell)
 	{
-		FVector forward = GetActorForwardVector();
-		FVector nozzle = GetMesh()->GetBoneLocation("hand_l");
-		nozzle += forward * 100;
-		FVector toOpponent = GetActorLocation() - nozzle;
-		toOpponent.Normalize();
-		ABullet* bullet = GetWorld()->SpawnActor<ABullet>(BPBullet, nozzle, RootComponent->GetComponentRotation());
-		if (bullet)
-		{
-			bullet->ProxSphere->AddImpulse(forward*BulletLaunchImpulse);
-		}
-		else
-		{
-			GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Yellow, "character: no bullet actor could be spawned. is the bullet overlapping something?");
-		}
+		spell->SetCaster(this);
 	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(1, 5.f, FColor::Yellow, FString(TEXT("변환 불가능")) + BPSpell->GetName());
+	}
+}
+
+void AMyCharacter::CastSpell2()
+{
+	if (TimeSinceLastSpell2 < SpellTimeout2)
+		return;
+
+	TimeSinceLastSpell2 = 0;
+	ASpell* spell2 = GetWorld()->SpawnActor<ASpell>(BPSpell2, FVector(0), FRotator(0));
+	if (spell2)
+	{
+		spell2->SetCaster(this);
+	}
+	else
+	{
+		GEngine->AddOnScreenDebugMessage(1, 5.f, FColor::Yellow, FString(TEXT("변환 불가능")) + BPSpell2->GetName());
+	}
+}
+
+int32 AMyCharacter::GetHP() const
+{
+	return HP;
 }

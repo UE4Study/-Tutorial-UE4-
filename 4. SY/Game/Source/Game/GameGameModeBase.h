@@ -33,6 +33,9 @@ public:
 	EPlayState GetCurrentState() const;
 	
 	void SetCurrentState(EPlayState ChangeState);
+
 private:
 	EPlayState CurrentState;
+
+	void HandleState(EPlayState changeState);
 };

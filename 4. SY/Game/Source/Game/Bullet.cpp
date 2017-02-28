@@ -9,9 +9,12 @@ ABullet::ABullet()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	Demage = 1;
+	Demage = 5;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	RootComponent = Mesh;
+	Particles = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ParticleSystem"));
+	Particles->SetupAttachment(RootComponent);
+
 	ProxSphere = CreateDefaultSubobject<USphereComponent>(TEXT("ProxSphere"));
 	ProxSphere->OnComponentBeginOverlap.AddDynamic(this, &ABullet::OnProxOverlapBegin);
 	ProxSphere->SetupAttachment(RootComponent);

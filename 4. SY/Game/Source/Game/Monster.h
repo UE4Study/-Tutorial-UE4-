@@ -23,20 +23,16 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	float TakeDamage(float Damage, struct FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser);
 	void Attack(AActor* thing);
-	//private:
+	
+	UFUNCTION(BlueprintPure, Category = Properties)
+		int32 GetHP() const;
+
+protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
 	float Speed;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
-		float HitPoints;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
-		int32 Experience;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
-		float BaseAttackDamage;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
 		float AttackTimeout;
 
@@ -55,4 +51,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = MonsterProperties)
 		float BulletLaunchImpulse;
 
+	FVector knockback;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = MonsterProperties)
+		int32 HP;
 };
