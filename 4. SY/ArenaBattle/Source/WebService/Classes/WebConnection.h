@@ -13,7 +13,10 @@ class WEBSERVICE_API UWebConnection : public UObject
 {
 	GENERATED_BODY()
 	
-	
+public:
+	UWebConnection();
 	
 	
 };
+
+DECLARE_LOG_CATEGORY_EXTERN(WebConnection, Log, All);
