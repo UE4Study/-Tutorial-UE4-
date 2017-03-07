@@ -16,7 +16,14 @@ class WEBSERVICE_API UWebConnection : public UObject
 public:
 	UWebConnection();
 	
-	
+	UPROPERTY()
+	FString Host;
+
+	UPROPERTY()
+	FString URI;
+
+	UFUNCTION()
+	void RequestToken();
 };
 
 DECLARE_LOG_CATEGORY_EXTERN(WebConnection, Log, All);

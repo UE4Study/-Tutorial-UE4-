@@ -14,11 +14,7 @@
 		},
 		{
 			"Name": "WebService",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"CoreUObject"
-			]
+			"Type": "Runtime"
 		}
 	]
 }
