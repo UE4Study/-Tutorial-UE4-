@@ -34,7 +34,11 @@ public:
 	void CastSpell2();
 
 	UFUNCTION(BlueprintPure, Category = Properties)
-		int32 GetHP() const;
+	float GetHP() const;
+
+	UFUNCTION(BlueprintCallable, Category = Properties)
+	float GetHPPercent();
+
 protected:
 	FVector knockback;
 
@@ -45,7 +49,10 @@ protected:
 		UClass* BPSpell2;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Properties)
-		int32 HP;
+		float HP;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Properties)
+		float MaxHP;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Properties)
 		float SpellTimeout;

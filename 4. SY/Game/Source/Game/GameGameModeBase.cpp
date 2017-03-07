@@ -14,10 +14,10 @@ AGameGameModeBase::AGameGameModeBase()
 void AGameGameModeBase::BeginPlay()
 {
 	Super::BeginPlay();
+	ChangeMenuWidget(StartingWidgetClass);
 
 	SetCurrentState(EPlayState::EPS_Play);
 }
-
 
 void AGameGameModeBase::Tick(float DeltaTime)
 {
@@ -76,5 +76,23 @@ void AGameGameModeBase::HandleState(EPlayState changeState)
 	{
 		MyCharacter->GetMesh()->SetSimulatePhysics(true);
 		MyCharacter->GetMovementComponent()->MovementState.bCanJump = false;
+	}
+}
+
+void AGameGameModeBase::ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass)
+{
+	if (CurrentWidget != nullptr)
+	{
+		CurrentWidget->RemoveFromViewport();
+		CurrentWidget = nullptr;
+	}
+
+	if (NewWidgetClass != nullptr)
+	{
+		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), NewWidgetClass);
+		if (CurrentWidget != nullptr)
+		{
+			CurrentWidget->AddToViewport();
+		}
 	}
 }

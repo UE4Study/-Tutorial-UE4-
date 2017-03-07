@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/GameModeBase.h"
+#include "Blueprint/UserWidget.h"
 #include "GameGameModeBase.generated.h"
 
 UENUM(BlueprintType)
@@ -33,6 +34,16 @@ public:
 	EPlayState GetCurrentState() const;
 	
 	void SetCurrentState(EPlayState ChangeState);
+
+	UFUNCTION(BlueprintCallable, Category = "UMG")
+		void ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass);
+
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG")
+		TSubclassOf<UUserWidget> StartingWidgetClass;
+
+	UPROPERTY()
+		UUserWidget* CurrentWidget;
 
 private:
 	EPlayState CurrentState;

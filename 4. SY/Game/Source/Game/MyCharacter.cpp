@@ -14,7 +14,8 @@ AMyCharacter::AMyCharacter()
 	SpellTimeout2 = 2.5f;
 	TimeSinceLastSpell = 3.5f;
 	TimeSinceLastSpell2 = 2.5f;
-	HP = 100;
+	HP = 100.f;
+	MaxHP = 100.f;
 }
 
 // Called when the game starts or when spawned
@@ -122,7 +123,12 @@ void AMyCharacter::CastSpell2()
 	}
 }
 
-int32 AMyCharacter::GetHP() const
+float AMyCharacter::GetHP() const
 {
 	return HP;
+}
+
+float AMyCharacter::GetHPPercent()
+{
+	return HP / MaxHP;
 }
