@@ -21,4 +21,6 @@ public:
 	UPROPERTY()
 	class UWebConnection* WebConnection;
 
+	UPROPERTY()
+	class UWebConnection* WebConnectionNew;
 };
