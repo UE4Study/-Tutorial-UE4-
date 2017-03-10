@@ -20,7 +20,13 @@ public:
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
 	class USkeletalMeshComponent* Weapon;
 	
+	UFUNCTION(BlueprintCallable, Category = "Weapon|Stat")
+	float GetDamage() { return BaseDamage; }
+
+private:
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Stat", meta = (AllowPrivateAccess = "true"))
+	float BaseDamage;
 };

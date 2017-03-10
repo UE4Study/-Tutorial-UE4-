@@ -13,7 +13,7 @@ AWeapon::AWeapon()
 	Weapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WeaponHashValue"));
 	RootComponent = Weapon;
 
-	static ConstructorHelpers::FObjectFinder<USkeletalMesh> 
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh>
 		SK_BlackKnight(TEXT("SkeletalMesh'/Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight'"));
 	Weapon->SetSkeletalMesh(SK_BlackKnight.Object);
 }
