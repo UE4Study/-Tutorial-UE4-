@@ -18,9 +18,15 @@ public:
 	UABGameInstance();
 	virtual void Init() override;
 	
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "WebService")
 	class UWebConnection* WebConnection;
 
 	UPROPERTY()
 	class UWebConnection* WebConnectionNew;
+	
+	UPROPERTY()
+	FStreamableManager AssetLoader;
+
+	UFUNCTION()
+	void RequestTokenComplete(const FString& Token);
 };

@@ -12,7 +12,9 @@ UWebConnection::UWebConnection()
 	URI = TEXT("/");
 }
 
-void UWebConnection::RequestToken()
+void UWebConnection::RequestToken(const FString& UserID)
 {
 	UE_LOG(WebConnection, Warning, TEXT("Request Token Call!"));
+
+	TokenCompleteDelegate.Broadcast(TEXT("0LCJydGKiOil2a3NjVE9pTUNESVZWM05qVTlyUnlTln0.VJyMOicM"));
 }
