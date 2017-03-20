@@ -6,6 +6,14 @@
 #include "WebConnection.h"
 #include "ABGameInstance.generated.h"
 
+class FHouse
+{
+public:
+	TSharedPtr<FHouse> OthersDeed;
+	TWeakPtr<FHouse> AccessHouse;
+	int32 Size = 10;
+};
+
 /**
  * 
  */
@@ -21,7 +29,7 @@ public:
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "WebService")
 	class UWebConnection* WebConnection;
 
-	UPROPERTY()
+	//UPROPERTY()
 	class UWebConnection* WebConnectionNew;
 	
 	UPROPERTY()
@@ -29,4 +37,9 @@ public:
 
 	UFUNCTION()
 	void RequestTokenComplete(const FString& Token);
+
+	FTimerHandle ObjectCheckTimer;
+
+	UFUNCTION()
+	void CheckUObjectAlive();
 };
