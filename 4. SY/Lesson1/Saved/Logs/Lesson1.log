@@ -1,0 +1,471 @@
+﻿Log file open, 03/23/17 17:06:06
+LogInit:Display: Running engine for game: Lesson1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1480952180) SRandInit(1480952180).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.831614
+LogPluginManager: Loaded Plugin Paper2D, From D:/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.23-08.06.07:215][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-08.06.07:215][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.23-08.06.07:283][  0]LogInit: Computer: SERU-PC
+[2017.03.23-08.06.07:283][  0]LogInit: User: seru
+[2017.03.23-08.06.07:283][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.23-08.06.07:283][  0]LogInit: High frequency timer resolution =3.312841 MHz
+[2017.03.23-08.06.07:283][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.03.23-08.06.07:283][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-08.06.07:283][  0]LogMemory: Process Physical Memory: 265.02 MB used, 265.02 MB peak
+[2017.03.23-08.06.07:283][  0]LogMemory: Process Virtual Memory: 263.23 MB used, 263.23 MB peak
+[2017.03.23-08.06.07:283][  0]LogMemory: Physical Memory: 6091.45 MB used,  2064.52 MB free, 8155.96 MB total
+[2017.03.23-08.06.07:283][  0]LogMemory: Virtual Memory: 652.85 MB used,  2064.52 MB free, 8388608.00 MB total
+[2017.03.23-08.06.08:229][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.03.23-08.06.08:433][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (D:/Epic Games/4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (D:/Epic Games/4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.03.23-08.06.08:433][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/Epic Games/4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/Epic Games/4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.03.23-08.06.08:433][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/Epic Games/4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/Epic Games/4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.03.23-08.06.08:433][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/Epic Games/4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/Epic Games/4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.03.23-08.06.10:187][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.23-08.06.10:221][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2017.03.23-08.06.10:221][  0]LogD3D11RHI:       1992/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.23-08.06.10:221][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.23-08.06.10:233][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.23-08.06.10:233][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.23-08.06.10:233][  0]LogWindows: EnumDisplayDevices:
+[2017.03.23-08.06.10:234][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:1)
+[2017.03.23-08.06.10:234][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2017.03.23-08.06.10:235][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.03.23-08.06.10:236][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2017.03.23-08.06.10:236][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.03.23-08.06.10:237][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.03.23-08.06.10:237][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.03.23-08.06.10:238][  0]LogWindows:    7. 'Virtual Remote Video Driver(VRVD302)' (P:0 D:0)
+[2017.03.23-08.06.10:238][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.03.23-08.06.10:238][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2017.03.23-08.06.10:238][  0]LogD3D11RHI:   Driver Version: 361.91 (internal:10.18.13.6191, unified:361.91)
+[2017.03.23-08.06.10:238][  0]LogD3D11RHI:      Driver Date: 2-8-2016
+[2017.03.23-08.06.10:238][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.23-08.06.10:258][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.23-08.06.10:492][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.03.23-08.06.10:565][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (E:/-Tutorial-UE4-/4. SY/Lesson1/Intermediate/Shaders/WorkingDirectory/5520/).
+[2017.03.23-08.06.10:566][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/seru/AppData/Local/Temp/UnrealShaderWorkingDir/28F9D1F5441FBA2315C337A364D32B38/'.
+[2017.03.23-08.06.10:566][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.23-08.06.13:395][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.23-08.06.13:448][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.23-08.06.13:501][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.23-08.06.13:553][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.23-08.06.13:613][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.23-08.06.13:666][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.23-08.06.13:718][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.23-08.06.13:770][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.23-08.06.13:811][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.23-08.06.13:902][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.23-08.06.13:965][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.23-08.06.14:027][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.23-08.06.14:081][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.23-08.06.14:136][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.23-08.06.14:195][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.23-08.06.14:310][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.23-08.06.14:310][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.23-08.06.14:345][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.23-08.06.14:470][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.23-08.06.14:498][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.23-08.06.14:549][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.23-08.06.14:600][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.23-08.06.14:652][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.23-08.06.14:714][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.23-08.06.14:714][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.23-08.06.15:624][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.23-08.06.15:942][  0]LogDerivedDataCache: Loaded boot cache 0.32s 51MB C:/Users/seru/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.23-08.06.15:942][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/seru/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.23-08.06.15:942][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/-Tutorial-UE4-/4. SY/Lesson1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.23-08.06.15:942][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.23-08.06.15:942][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/-Tutorial-UE4-/4. SY/Lesson1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.23-08.06.15:942][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.23-08.06.16:079][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.23-08.06.16:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/seru/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.23-08.06.22:371][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-08.06.22:460][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.23-08.06.23:435][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.23-08.06.23:588][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.23-08.06.23:657][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.23-08.06.23:657][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.23-08.06.23:657][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.23-08.06.28:529][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: lesson1, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2151756251
+[2017.03.23-08.06.28:768][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2017.03.23-08.06.28:916][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.084111 seconds
+[2017.03.23-08.06.28:936][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.23-08.06.28:936][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.03.23-08.06.28:936][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.23-08.06.28:999][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.23-08.06.32:316][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.23-08.06.32:377][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-08.06.32:377][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-08.06.46:032][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.23-08.06.46:147][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.23-08.06.48:175][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.23-08.06.49:341][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.03.23-08.06.49:440][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.03.23-08.06.49:577][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.03.23-08.06.49:646][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.03.23-08.06.51:901][  0]LogEngine: Initializing Engine...
+[2017.03.23-08.06.51:913][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.23-08.06.52:662][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.23-08.06.52:849][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-08.06.53:021][  0]LogInit: FAudioDevice initialized.
+[2017.03.23-08.06.53:061][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/seru/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.23-08.06.53:066][  0]LogInit: Texture streaming: Enabled
+[2017.03.23-08.06.53:373][  0]LogInit: Transaction tracking system initialized
+[2017.03.23-08.06.53:984][  0]BlueprintLog: New page: 에디터 로드
+[2017.03.23-08.06.55:773][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.03.23-08.06.56:899][  0]LogConsoleResponse:Display: 
+[2017.03.23-08.06.57:807][  0]LogFileCache: Scanning file cache for directory 'E:/-Tutorial-UE4-/4. SY/Lesson1/Content/' took 0.04s
+[2017.03.23-08.06.57:807][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.23-08.06.57:807][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.23-08.07.00:522][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.03.23-08.07.00:562][  0]Cmd: MAP LOAD FILE="E:/-Tutorial-UE4-/4. SY/Lesson1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.23-08.07.00:590][  0]LogEditorServer:Warning: Can't find file 'E:/-Tutorial-UE4-/4. SY/Lesson1/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.23-08.07.00:599][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.23-08.07.00:795][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 195.412ms.
+[2017.03.23-08.07.00:795][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.255
+[2017.03.23-08.07.02:357][  0]LogCollectionManager: Loaded 0 collections in 0.003130 seconds
+[2017.03.23-08.07.02:561][  0]LogFileCache: Scanning file cache for directory 'E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Collections/' took 0.01s
+[2017.03.23-08.07.02:561][  0]LogFileCache: Scanning file cache for directory 'E:/-Tutorial-UE4-/4. SY/Lesson1/Content/Developers/seru/Collections/' took 0.01s
+[2017.03.23-08.07.02:561][  0]LogFileCache: Scanning file cache for directory 'E:/-Tutorial-UE4-/4. SY/Lesson1/Content/Collections/' took 0.01s
+[2017.03.23-08.07.02:561][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.03.23-08.07.02:614][  0]LogContentBrowser: Native class hierarchy populated in 0.0281 seconds. Added 2190 classes and 428 folders.
+[2017.03.23-08.07.02:726][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.23-08.07.02:727][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.23-08.07.02:728][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 13 classes and 0 folders.
+[2017.03.23-08.07.02:818][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.23-08.07.04:177][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.03.23-08.07.04:363][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.03.23-08.07.04:825][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.23-08.07.04:998][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.03.23-08.07.05:171][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.23-08.07.05:171][  0]LogLoad: (Engine Initialization) Total time: 69.83 seconds
+[2017.03.23-08.07.05:171][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.44 seconds
+[2017.03.23-08.07.05:171][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.23-08.07.05:171][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.23-08.07.05:517][  0]LogOcInput: OculusInput pre-init called
+[2017.03.23-08.07.05:785][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.23-08.07.06:697][  0]LogRenderer: Reallocating scene render targets to support 1208x652 NumSamples 1 (Frame:2).
+[2017.03.23-08.07.07:316][  2]LogAssetRegistry: Asset discovery search completed in 38.5694 seconds
+[2017.03.23-08.07.07:316][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.23-08.07.07:317][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000097 seconds (updated 0 objects)
+[2017.03.23-08.08.51:051][589]LogEditorViewport: Clicking Background
+[2017.03.23-08.09.11:086][666]LogEditorViewport: Clicking Background
+[2017.03.23-08.10.54:354][673]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.23-08.10.54:442][673]LightingResults: New page: 라이팅 빌드
+[2017.03.23-08.10.54:509][673]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.03.23-08.10.54:511][673]LoadErrors: New page: 맵 로드중: Template_Default.umap
+[2017.03.23-08.10.54:534][673]MapCheck: New page: 맵 체크
+[2017.03.23-08.10.54:534][673]LightingResults: New page: 라이팅 빌드
+[2017.03.23-08.10.55:351][673]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.23-08.10.55:366][673]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.23-08.10.55:602][673]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.23-08.10.55:634][673]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.23-08.10.55:695][673]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 61.243ms.
+[2017.03.23-08.10.55:695][673]LogFileHelpers: Loading map 'Template_Default' took 1.354
+[2017.03.23-08.12.07:780][222]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.23-08.12.34:316][684]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.03.23-08.12.35:627][689]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Lesson1
+
+[2017.03.23-08.12.35:628][689]LogTemp:Display: CWD: D:\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.03.23-08.12.35:628][689]LogTemp:Display: Initial Dir: D:\Epic Games\4.14
+
+[2017.03.23-08.12.35:628][689]LogTemp:Display: Env CWD: D:\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.03.23-08.12.35:628][689]LogTemp:Display: BranchPath = SERU-PC/D/Epic Games/4.14/Engine/Binaries --- GameBranchPath = SERU-PC/D/Epic Games/4.14/Engine/Binaries
+
+[2017.03.23-08.12.35:710][695]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\seru\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.03.23-08.12.35:710][695]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.03.23-08.12.35:710][695]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.03.23-08.12.35:710][695]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+[2017.03.23-08.12.35:710][695]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.03.23-08.12.35:710][695]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.03.23-08.12.35:710][695]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.03.23-08.21.00:308][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.03.23-08.21.00:405][164]LogSavePackage: Save=75.31ms
+[2017.03.23-08.21.00:405][164]LogSavePackage: Moving 'E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Untitled_1_Auto1183BEE904F16E94E61F633A3BDE5A198.tmp' to 'E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.03.23-08.21.00:407][164]LogSavePackage:Display: Finished SavePackage E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.03.23-08.21.00:432][164]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.155
+[2017.03.23-08.21.00:432][164]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
+[2017.03.23-08.22.05:083][422]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.03.23-08.22.05:109][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-08.22.05:127][422]PIE: New page: PIE 세션: Untitled_1 (2017. 3. 24. 오전 2:22:05)
+[2017.03.23-08.22.05:127][422]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.03.23-08.22.05:138][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011167s)
+[2017.03.23-08.22.05:139][422]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.23-08.22.05:139][422]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2017.03.23-08.22.05:139][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.012010s)
+[2017.03.23-08.22.05:154][422]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-08.22.05:172][422]LogInit: FAudioDevice initialized.
+[2017.03.23-08.22.05:660][422]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.23-08.22.05:716][422]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.03.23-17.22.05
+[2017.03.23-08.22.05:716][422]LogWorld: Bringing up level for play took: 0.005473
+[2017.03.23-08.22.05:854][422]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.03.23-08.22.05:966][422]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.715
+[2017.03.23-08.22.13:511][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.23-08.22.13:746][277]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.23-08.22.24:577][482]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.03.23-08.22.24:583][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-08.22.24:583][482]PIE: New page: PIE 세션: Untitled_1 (2017. 3. 24. 오전 2:22:24)
+[2017.03.23-08.22.24:583][482]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.03.23-08.22.24:585][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001931s)
+[2017.03.23-08.22.24:585][482]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.23-08.22.24:586][482]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.03.23-08.22.24:586][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002733s)
+[2017.03.23-08.22.24:606][482]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-08.22.24:621][482]LogInit: FAudioDevice initialized.
+[2017.03.23-08.22.24:652][482]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.23-08.22.24:654][482]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.03.23-17.22.24
+[2017.03.23-08.22.24:654][482]LogWorld: Bringing up level for play took: 0.000886
+[2017.03.23-08.22.24:656][482]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.595
+[2017.03.23-08.23.37:984][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.23-08.24.57:538][ 76]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-08.25.25:426][461]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.03.23-08.25.26:677][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.23-08.25.29:505][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.23-08.27.16:362][295]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.23-08.27.33:036][  3]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-08.28.07:777][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.23-08.29.56:233][456]LogEditorViewport: Clicking Background
+[2017.03.23-08.29.58:305][704]LogEditorViewport: Clicking on Actor (LMB): Brush (Box 브러시)
+[2017.03.23-08.30.01:443][ 76]LogEditorViewport: Clicking on Actor (LMB): Brush (House)
+[2017.03.23-08.30.06:320][655]LogEditorViewport: Clicking on Actor (LMB): Brush (Box 브러시)
+[2017.03.23-08.30.13:630][524]LogEditorViewport: Clicking on Actor (LMB): Brush (House)
+[2017.03.23-08.30.24:623][834]LogEditorViewport: Clicking on Actor (LMB): Brush (Box 브러시)
+[2017.03.23-08.30.26:715][ 80]LogEditorViewport: Clicking Background
+[2017.03.23-08.30.45:352][ 71]LogEditorViewport: Clicking on Actor (LMB): Brush (Box 브러시)
+[2017.03.23-08.31.03:818][421]LogEditorViewport: Clicking on Actor (LMB): Brush (House)
+[2017.03.23-08.31.04:046][429]LogEditorViewport: Clicking on Actor (LMB): Brush (House)
+[2017.03.23-08.31.12:435][950]LogEditorViewport: Clicking on Actor (LMB): Brush (Box 브러시)
+[2017.03.23-08.31.52:564][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.03.23-08.31.52:603][914]LogSavePackage: Save=38.98ms
+[2017.03.23-08.31.52:603][914]LogSavePackage: Moving 'E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Untitled_1_Auto20211D10643BF3089325D1296CF9DA104.tmp' to 'E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2017.03.23-08.31.52:604][914]LogSavePackage:Display: Finished SavePackage E:/-Tutorial-UE4-/4. SY/Lesson1/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2017.03.23-08.31.52:606][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.052
+[2017.03.23-08.31.52:606][914]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.052
+[2017.03.23-08.32.52:226][ 98]LogEditorViewport: Clicking Background
+[2017.03.23-08.33.32:497][ 11]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.03.23-08.33.32:504][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-08.33.32:504][ 11]PIE: New page: PIE 세션: Untitled_1 (2017. 3. 24. 오전 2:33:32)
+[2017.03.23-08.33.32:504][ 11]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.03.23-08.33.32:508][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003291s)
+[2017.03.23-08.33.32:508][ 11]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.23-08.33.32:509][ 11]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2017.03.23-08.33.32:509][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004262s)
+[2017.03.23-08.33.32:522][ 11]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-08.33.32:538][ 11]LogInit: FAudioDevice initialized.
+[2017.03.23-08.33.32:593][ 11]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.23-08.33.32:594][ 11]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.03.23-17.33.32
+[2017.03.23-08.33.32:594][ 11]LogWorld: Bringing up level for play took: 0.000715
+[2017.03.23-08.33.32:597][ 11]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.665
+[2017.03.23-08.34.23:646][106]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-08.35.52:181][567]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.23-08.36.00:632][555]Cmd: MODE GRID=0
+[2017.03.23-08.36.02:145][726]Cmd: MODE GRID=1
+[2017.03.23-08.37.44:929][532]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-08.38.03:900][779]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair 브러시)
+[2017.03.23-08.38.32:922][223]LogEditorViewport: Clicking Background
+[2017.03.23-08.38.42:261][341]LogEditorViewport: Clicking Background
+[2017.03.23-08.39.37:195][745]Cmd: DELETE
+[2017.03.23-08.39.37:195][745]Cmd: ACTOR DELETE
+[2017.03.23-08.39.37:196][745]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-08.39.37:210][745]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.03.23-08.39.41:494][233]Cmd: EDIT COPY
+[2017.03.23-08.40.03:478][744]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-08.40.14:219][986]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.03.23-08.41.14:571][ 81]Cmd: TRANSACTION UNDO
+[2017.03.23-08.41.14:571][ 81]LogEditorTransaction: Undo 액터 회전
+[2017.03.23-08.41.18:606][514]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.23-08.41.39:920][999]LogEditorViewport: Clicking on Actor (LMB): Brush (House2)
+[2017.03.23-08.41.47:282][860]Cmd: TRANSACTION UNDO
+[2017.03.23-08.41.47:282][860]LogEditorTransaction: Undo 액터 이동
+[2017.03.23-08.43.44:209][331]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.23-08.43.56:298][606]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.03.23-08.43.56:306][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-08.43.56:306][606]PIE: New page: PIE 세션: Untitled_1 (2017. 3. 24. 오전 2:43:56)
+[2017.03.23-08.43.56:306][606]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.03.23-08.43.56:313][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006604s)
+[2017.03.23-08.43.56:313][606]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.23-08.43.56:313][606]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2017.03.23-08.43.56:314][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007418s)
+[2017.03.23-08.43.56:327][606]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-08.43.56:344][606]LogInit: FAudioDevice initialized.
+[2017.03.23-08.43.56:374][606]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.23-08.43.56:376][606]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.03.23-17.43.56
+[2017.03.23-08.43.56:376][606]LogWorld: Bringing up level for play took: 0.000867
+[2017.03.23-08.43.56:378][606]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.894
+[2017.03.23-08.44.31:936][796]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.23-08.44.46:404][494]Cmd: TRANSACTION UNDO
+[2017.03.23-08.44.46:404][494]LogEditorTransaction: Undo 브러시 표면 선택
+[2017.03.23-08.44.56:056][607]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.03.23-08.44.56:063][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-08.44.56:063][607]PIE: New page: PIE 세션: Untitled_1 (2017. 3. 24. 오전 2:44:56)
+[2017.03.23-08.44.56:063][607]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.03.23-08.44.56:070][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006704s)
+[2017.03.23-08.44.56:071][607]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.23-08.44.56:071][607]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2017.03.23-08.44.56:071][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007574s)
+[2017.03.23-08.44.56:084][607]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-08.44.56:099][607]LogInit: FAudioDevice initialized.
+[2017.03.23-08.44.56:127][607]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.23-08.44.56:129][607]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.03.23-17.44.56
+[2017.03.23-08.44.56:129][607]LogWorld: Bringing up level for play took: 0.000875
+[2017.03.23-08.44.56:131][607]PIE: 정보 /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.858
+[2017.03.23-08.46.08:553][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/House" FILE="E:/-Tutorial-UE4-/4. SY/Lesson1/Content/Map/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
