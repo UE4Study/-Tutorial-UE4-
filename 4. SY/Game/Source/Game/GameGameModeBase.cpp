@@ -23,21 +23,8 @@ void AGameGameModeBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	int32 MonsterCount = 0;
-	TArray<AActor*> FoundActors;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AMonster::StaticClass(), FoundActors);
-	for (auto Actor : FoundActors)
-	{
-		AMonster* MonsterActor = Cast<AMonster>(Actor);
-		if (MonsterActor)
-		{
-			++MonsterCount;
-		}
-	}
-
-	if (MonsterCount <= 0)
+	if (0 >= GetMonsterCount())
 		SetCurrentState(EPlayState::EPS_Clear);
-
 
 	AMyCharacter* MyCharacter = Cast<AMyCharacter>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
 	if (!MyCharacter)
@@ -59,6 +46,23 @@ void AGameGameModeBase::SetCurrentState(EPlayState ChangeState)
 	CurrentState = ChangeState;
 	
 	HandleState(ChangeState);
+}
+
+int32 AGameGameModeBase::GetMonsterCount()
+{
+	int32 MonsterCount = 0;
+	TArray<AActor*> FoundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AMonster::StaticClass(), FoundActors);
+	for (auto Actor : FoundActors)
+	{
+		AMonster* MonsterActor = Cast<AMonster>(Actor);
+		if (MonsterActor)
+		{
+			++MonsterCount;
+		}
+	}
+
+	return MonsterCount;
 }
 
 void AGameGameModeBase::HandleState(EPlayState changeState)

@@ -115,7 +115,7 @@ void AMonster::Attack(AActor* thing)
 	}
 	else
 	{
-		GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Yellow, "monster: no bullet actor could be spawned. is the bullet overlapping something?");
+		GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Yellow, "NULL == bullet");
 	}
 }
 

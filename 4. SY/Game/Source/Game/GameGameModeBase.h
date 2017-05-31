@@ -34,6 +34,7 @@ public:
 	EPlayState GetCurrentState() const;
 	
 	void SetCurrentState(EPlayState ChangeState);
+	int32 GetMonsterCount();
 
 	UFUNCTION(BlueprintCallable, Category = "UMG")
 		void ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass);
